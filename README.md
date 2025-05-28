@@ -46,15 +46,13 @@ portfolio/
 
 ### 🔹 Homepage
 
-![Home Page](<img width="767" alt="image" src="https://github.com/user-attachments/assets/a4da850d-0d39-41b2-96bd-9444c3424de1" />
-)
+![Home Page](<img width="767" alt="image" src="https://github.com/user-attachments/assets/a4da850d-0d39-41b2-96bd-9444c3424de1" />)
 
 ---
 
 ### 🔹 About Section
 
-![About Me](<img width="936" alt="image" src="https://github.com/user-attachments/assets/4a107a85-26b8-45f0-9c0d-037f9b5cd610" />
-)
+![About Me](<img width="936" alt="image" src="https://github.com/user-attachments/assets/4a107a85-26b8-45f0-9c0d-037f9b5cd610" />)
 
 ---
 
