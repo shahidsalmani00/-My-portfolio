@@ -46,26 +46,26 @@ portfolio/
 
 ### 🔹 Homepage
 
-![Home Page]<img width="767" alt="image" src="https://github.com/user-attachments/assets/a4da850d-0d39-41b2-96bd-9444c3424de1" />
+<img width="767" alt="image" src="https://github.com/user-attachments/assets/a4da850d-0d39-41b2-96bd-9444c3424de1" />
 
 ---
 
 ### 🔹 About Section
 
-![About Me]<img width="936" alt="image" src="https://github.com/user-attachments/assets/4a107a85-26b8-45f0-9c0d-037f9b5cd610" />
+<img width="936" alt="image" src="https://github.com/user-attachments/assets/4a107a85-26b8-45f0-9c0d-037f9b5cd610" />
 
 ---
 
 ### 🔹 Projects Showcase
 
-![Projects]<img width="943" alt="image" src="https://github.com/user-attachments/assets/fe075bfa-78a5-4fee-9edd-2f628f40323a" />
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/fe075bfa-78a5-4fee-9edd-2f628f40323a" />
 
 
 ---
 
 ### 🔹 Contact Form
 
-![Contact Form]<img width="905" alt="image" src="https://github.com/user-attachments/assets/96ec3bb9-7ea6-47a0-8a02-deb91def5b84" />
+<img width="905" alt="image" src="https://github.com/user-attachments/assets/96ec3bb9-7ea6-47a0-8a02-deb91def5b84" />
 
 
 ---
