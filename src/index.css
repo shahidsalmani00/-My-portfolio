@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+@import "tailwindcss/preflight";
+/* Optional but good for base styles */
+@import "tailwindcss/utilities";
+@import "tailwindcss/theme";
+
+/* If you want to keep using the tailwind.config.js colors and classes, 
+   Tailwind 4 usually prefers theme variables in CSS, but for compatibility 
+   we can keep the config or migrate. For now, let's use the new import style. */
+
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-dark-900 text-white selection:bg-frog/30 selection:text-frog-light;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-dark-800/50 backdrop-blur-md border border-white/10 rounded-2xl;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-frog hover:bg-frog-dark text-white rounded-full transition-all duration-300 transform hover:scale-105 active:scale-95 flex items-center gap-2;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-white/5 hover:bg-white/10 border border-white/10 text-white rounded-full transition-all duration-300 transform hover:scale-105 active:scale-95 flex items-center gap-2;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-frog-light to-accent-blue;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22c55e66;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22c55e;
+}
