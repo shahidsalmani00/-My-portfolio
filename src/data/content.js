@@ -91,24 +91,6 @@ export const projects = [
         image: "frogtyping_preview"
     },
     {
-        id: 2,
-        title: "PriceMaker",
-        description: "Affiliate marketing application for price tracking and deal discovery.",
-        tech: ["React Native", "Node.js", "MongoDB"],
-        demo: "#",
-        github: "#",
-        image: "pricemaker_preview"
-    },
-    {
-        id: 3,
-        title: "PriceScout",
-        description: "Cab fare comparison application across multiple aggregators.",
-        tech: ["React Native", "Firebase", "API Integration"],
-        demo: "#",
-        github: "#",
-        image: "pricescout_preview"
-    },
-    {
         id: 4,
         title: "Uskill",
         description: "Modern E-learning platform for skill development and certification.",

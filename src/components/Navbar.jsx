@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { useScroll } from '../hooks/useScroll';
+import logo from '../assets/images/logo.png';
 
 const navLinks = [
     { name: 'About', href: '#about' },
@@ -28,10 +29,12 @@ const Navbar = () => {
                 <motion.a
                     href="#"
                     whileHover={{ scale: 1.05 }}
-                    className="text-2xl font-bold flex items-center gap-2"
+                    className="flex items-center gap-3 group"
                 >
-                    <span className="w-8 h-8 bg-frog rounded-lg flex items-center justify-center text-white text-xs">S</span>
-                    <span className="text-white">Shahid<span className="text-frog">.</span></span>
+                    <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-frog/30 bg-dark-800 shadow-lg shadow-frog/10 group-hover:border-frog transition-all duration-300">
+                        <img src={logo} alt="Shahid Salmani Logo" className="w-full h-full object-cover" />
+                    </div>
+                    <span className="text-white text-2xl font-bold">Shahid<span className="text-frog">.</span></span>
                 </motion.a>
 
                 {/* Desktop Menu */}
